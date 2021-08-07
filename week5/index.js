@@ -47,6 +47,7 @@ function isValidWithIn(weights, days, T) {
  * @return {number}
  */
  var minEatingSpeed = function (piles, h) {
+   // 时间复杂度O(nlogN) 空间复杂度O1
   let l = 0, r = Math.pow(10, 9);
   while (l < r) {
       let mid = (l + r) >> 1;
